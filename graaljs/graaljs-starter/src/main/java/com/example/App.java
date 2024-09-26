@@ -12,7 +12,7 @@ public class App {
 
     public static void main(String[] args) {
         try (Context context = Context.create()) {
-            context.eval("python", "print('Hello from GraalPy!')");
+            context.eval("js", "console.log('Hello from GraalJS!')");
         }
     }
 }
